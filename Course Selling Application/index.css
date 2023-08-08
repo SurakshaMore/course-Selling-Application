@@ -1,0 +1,159 @@
+/* HEADER */
+
+.navbar {
+  background-color: #2f6d8a;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  
+}
+
+
+.navbar-nav {
+  margin: 0 auto;
+}
+.nav-link {
+  font-size: 18px;
+  font-weight: bold;
+  flood-color: black;
+}
+.logo {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.logoname {
+  font-family: "Arial", sans-serif;
+  font-size: 18px;
+  font-weight: bold;
+  color: #333;
+}
+a {
+  color: black;
+}
+.email {
+  color: #ccc;
+}
+
+.icon {
+  font-size: 22px;
+  color: white;
+}
+.line {
+  width: 100%;
+  height: 1px;
+  background-color: #2f6d8a;
+}
+.navbar-collapse {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.form-inline {
+  margin-right: 20px;
+}
+@media (max-width: 768px) {
+  .form-inline {
+    margin-right: 0;
+    margin-top: 10px;
+  }
+}
+.button {
+  background-color: #96353d;
+  color: white;
+}
+
+/* BODY */
+
+ul {
+  /* list-style: none; */
+  padding-left: 0;
+}
+
+.card-text {
+  font-size: 12px;
+}
+.card-title {
+  font-size: 15px;
+}
+.card-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.card {
+  flex-basis: calc(33.3333% - 1rem);
+  margin-bottom: 1rem;
+  border-width: 2px;
+  border-color: black;
+  height: 220px;
+  border-radius: 5px;
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+}
+
+.card:hover {
+  transform: scale(1.05);
+  box-shadow: 0 8px 25px rgba(0, 0, 0, 0.3);
+}
+
+.card-body {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px;
+  margin: 5px;
+}
+
+@media (max-width: 768px) {
+  .card {
+    flex-basis: calc(50% - 1rem);
+  }
+}
+
+ul li {
+  font-size: 18px;
+  font-weight: 500;
+  margin-bottom: 8px;
+}
+.title {
+  font-size: 22px;
+  font-weight: 700;
+  margin-bottom: 25px;
+}
+
+/* FOOTER */
+
+h5 {
+  font-size: 20px;
+  font-weight: 600;
+}
+footer a {
+  text-decoration: none;
+}
+.footer {
+  background-color: #235168;
+  color: #fff;
+  padding: 20px 0;
+}
+
+.hidden {
+  display: none;
+}
+.displayitem {
+  display: none;
+}
+
+.icon {
+  font-size: 20px; 
+  transition: font-size 0.2s; 
+}
+
+.icon:hover {
+  font-size: 26px; 
+}
+
+
+
+
+
